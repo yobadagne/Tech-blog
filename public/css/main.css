@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+background-color: #B0916E;
+
+}
+div.container
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10% 90%;
+    /* background-color:black; */
+
+}
+nav.nav_links{
+     background-color: rgb(241, 241, 248, 0.5); 
+     
+    grid-column-start: 1;
+    grid-column-end: 3;
+   
+
+}
+/* div.left_content_div{
+    /* background-color: brown; */
+    
+    */
+div.right_image_div{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* background-color:aqua; */
+        
+   }
+   .first_img{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+   }
+
+
+
+
+ ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} 
+
+
+li{
+    
+    text-decoration: none;   
+     display: inline-block;   
+     padding: 20px 20px;
+}
+li a{
+    display: inline-block;  
+    text-decoration: none; 
+    color: black;
+    transition: all 0.4s;
+
+}
+li a:hover{
+transform: scale(1.2);
+}
+
+h1,h2, h3 {
+    padding: 30px 100px;
+    font-family: "Edu+TAS+Beginner", sans-serif;
+}  
+p{
+    display: inline;
+    /* border: 2px solid black;
+    border-radius: 5px; */
+    margin-left: 100px;
+    padding: 5px 10px;
+    font-size: 30px;
+    align-self: center;
+}
+p a{
+text-decoration: none;
+color:rgb(0, 0, 0, 0.4);
+display: inline-block;
+transition: 0.4s;
+}
+p a:hover{
+    transform: scale(1.2);
+    color: black;
+}
+h2{
+    display: inline;
+}
